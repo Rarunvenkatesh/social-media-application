@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Primary Color */
+:root {
+    --primary-color: #1877F2;
+}
+
+/* Overlay Styles */
+.overLay {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-color);
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Close Icon Styles */
+.closeIcon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.cards {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cardImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.username {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Follow Button Styles */
+.follow {
+    padding: 8px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.follow:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.wrong:hover{
+cursor: pointer;
+color: red;
+}

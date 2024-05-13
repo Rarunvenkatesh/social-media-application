@@ -1,0 +1,44 @@
+.overLay {
+    position: absolute;
+    z-index: 1;
+    left: 800px;
+    top: 200px;
+    background-color: #1877F2; /* Updated background color */
+    height: 600px;
+    width: 400px;
+    overflow-y: scroll;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changed from "top" to "space-between" */
+    padding: 10px; /* Added padding */
+}
+
+.cardImg {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; /* Adjusted margin */
+}
+
+.closeIcon {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end; /* Changed from "end" to "flex-end" */
+    align-items: flex-end; /* Changed from "end" to "flex-end" */
+}
+
+.follow {
+    padding: 8px;
+    background-color: #1877F2; /* Updated background color */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Added text color */
+}
+.wrong:hover{
+    cursor: pointer;
+    color: red;
+    }
